@@ -1,0 +1,51 @@
+{
+    "local":{
+        "port": 3000,
+        "timeouttoken": 10800,
+        "pathfile": "./files",
+        "sql_db":{
+            "user": "",
+            "password": "",
+            "host": "127.0.0.1",
+            "database": "document"
+        },
+        "redis_db":{
+            "port": "6379",
+            "host": "127.0.0.1",
+            "password": "",
+            "timenoutUUID": 3600
+        },
+        "email":{
+            "dir": "",
+            "password": "",
+            "host": "",
+            "subject": "",
+            "from": "",
+            "url_base": ""
+        },
+    },
+    "dev":{
+        "port": 3000,
+        "timeouttoken": 10800,
+        "sql_db":{
+            "user": "",
+            "password": "",
+            "host": "127.0.0.1",
+            "database": "document"
+        },
+        "redis_db":{
+            "port": "6379",
+            "host": "127.0.0.1",
+            "password": ""
+        },
+        "email":{
+            "dir": "",
+            "password": "",
+            "host": "",
+            "subject": "",
+            "from": "",
+            "timenoutUUID": 3600,
+            "url_base": ""
+        }
+    }
+}
