@@ -1,6 +1,7 @@
 # Instrucciones de uso
+Servicio que permite subir documentos a la maquina donde se aloja el backend. Estos documentos estarían asociados a un usuario.
 
-La aplicación se ha desarrollado utilizando una base de datos MySQL y una base de datos Redis para almacenar los uuid de los email para cambiar la contraseña.
+La aplicación se ha desarrollado utilizando una base de datos MySQL y una base de datos Redis para almacenar los uuid temporales de los email para cambiar la contraseña.
 
 El fichero de configuración del proyecto se encuentra en el directorio config. Donde se pueden añadir las configuraciones de las bases de datos y cliente smtp.
 
@@ -8,9 +9,11 @@ Para levantar el servidor es necesario utilizar el comando.
 
 > node server.js.
 
-Para realizar los test.
+Los test se deberían hacer sobre una base de datos de test ya que son pruebas End-To-END. Así que para 
+realizar los test es necesario apuntar a una base de datos de pruebas vacía. 
 
 > npm test
+
 
 En cuanto a las rutas existentes.
 Por un lado, tenemos las rutas de usuario que serían.
